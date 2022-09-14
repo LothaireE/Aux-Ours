@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color:  #0F1419;
 }
 
 Link {
@@ -8,22 +9,26 @@ Link {
 }
 
 :root {
+    --basic: #0F1419;
     --bg1: #353535;
     --bg2: #3C6E71;
     --bg3: #284b63;
     --lg: #D9D9D9;
-
     --stdg: #6c757d;
-        --dg: #495057
+    --dg: #495057
 }
 body {
     font-family: 'Anonymous Pro', monospace;
+    color:  #0F1419;
 }
-p, span{
+p, span, .container{
     font-size: 18px;
     line-height: 27px;
-    /* padding-bottom: 27px; */
 }
-a {
-    color: black;
+h4 {
+  
+        font-weight: 700;
+        font-size: 1.5rem;
+
 }
+

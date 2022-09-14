@@ -5,3 +5,17 @@
     cursor: pointer;
     color: black;
 }
+
+.contactInfos {
+    display: flex;
+    flex-direction: column;
+    /* background-color: tomato; */
+    border: solid 1px var(--lg);
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 0;
+    margin: 10%;
+}
+.contactInfos div {
+    margin: 2rem 0
+}

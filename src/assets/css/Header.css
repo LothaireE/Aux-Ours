@@ -2,16 +2,24 @@
     width: 100%;
     object-fit: cover;
 }
+
 .header a {
+    /* font-weight: 700;
+    font-size: 24px; */
+    color: var(--basic);
+}
+
+.navBar a {
     /* text-decoration: none; */
     font-weight: 700;
     font-size: 24px;
-    color: black;
+
     transition: all .2s ease-in-out; 
 }
-.header a:hover {
+.navBar a:hover {
     transform: scale(1.1);
     color: var(--stdg);
+    text-decoration: underline;
 }
 h1 {
     font-weight: bold;
