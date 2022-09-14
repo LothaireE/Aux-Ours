@@ -1,7 +1,7 @@
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useEffect, useState } from "react";
 import "../assets/css/Contacts.css";
-import { BrandInstagram, Copy } from "tabler-icons-react";
+import { BrandInstagram } from "tabler-icons-react";
 const Contacts = () => {
     const [copied, setCopied] = useState(true);
 
