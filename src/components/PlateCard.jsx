@@ -9,8 +9,8 @@ const PlateCard = ({ item }) => {
                 <h5 className="font-weight-bold">{title}</h5>
                 <p className="details ps-4">{details}</p>
             </div>
-            <div className="col-1">
-                <p>{price}</p>
+            <div>
+                <p>{price} €</p>
             </div>
         </div>
     );

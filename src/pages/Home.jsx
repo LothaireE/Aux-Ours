@@ -25,7 +25,7 @@ const Home = () => {
     };
 
     return (
-        <div className="container border">
+        <div className="container">
             <article className="d-flex py-5 justify-content-evenly">
                 <div className="col-6">
                     <img src={AuxOurs} alt="aux ours" className="col-12" />
@@ -43,7 +43,7 @@ const Home = () => {
                     </div>
                 </div>
             </article>
-            <article className="border">
+            <article className="">
                 <button
                     className="menuBtn"
                     onClick={() => {
@@ -59,6 +59,7 @@ const Home = () => {
                 </button>
                 {mount && (
                     <div
+                        className=""
                         style={{
                             opacity: !show ? "0" : "1",
                             transition: "all .4s",
@@ -68,14 +69,6 @@ const Home = () => {
                         <MenuCard />
                     </div>
                 )}
-            </article>
-            <article>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Animi soluta, sint praesentium nemo consequuntur ratione
-                    tempore mollitia eum id laudantium vel fugiat! Molestias,
-                    unde commodi. Saepe necessitatibus accusamus magnam ab!
-                </p>
             </article>
         </div>
     );

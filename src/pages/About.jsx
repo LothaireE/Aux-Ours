@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="container">
             <article className="d-flex py-5 justify-content-evenly">
-                <div className="col-4 px-3 border d-flex flex-column justify-content-center">
+                <div className="col-4 px-3 d-flex flex-column justify-content-center">
                     <h2>Aux Ours</h2>
                     <p>
                         Nous sommes une brasserie situé à Paris dans le 20ème
